@@ -1,0 +1,29 @@
+{
+  "name": "warm-expense-tracker-mongo",
+  "version": "1.0.0",
+  "description": "暖心記帳本 Web App（Node.js + Express + MongoDB Atlas + Chart.js）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "expense",
+    "tracker",
+    "vibe-coding",
+    "mongodb",
+    "express",
+    "chartjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "mongoose": "^7.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
